@@ -1,0 +1,638 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+
+@font-face {
+    font-family: 'Open Sans 4';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot');
+}
+
+@font-face {
+    font-family: 'Open Sans 7';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://themes.googleusercontent.com/static/fonts/opensans/v5/k3k702ZOKiLJc3WVjuplzHZ2MAKAc2x4R1uOSeegc5U.eot');
+}
+
+@font-face {
+    font-family: 'Open Sans 8';
+    font-style: normal;
+    font-weight: 800;
+    src: url('https://themes.googleusercontent.com/static/fonts/opensans/v5/EInbV5DfGHOiMmvb1Xr-hnZ2MAKAc2x4R1uOSeegc5U.eot');
+}
+
+html, body {
+    font-family: 'Open Sans 4';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.phoneHeadTop {
+    border-bottom: 0;
+}
+
+.phoneHeadBottom {
+    display: none;
+}
+
+.ie-only {
+    display: block;
+}
+
+.non-ie {
+    display: none;
+}
+
+#AR_2014 {
+    width: 750px;
+    height: 122px;
+    float: left;
+    text-align: center;
+    background-image: url("http://web3.illinoismutual.com/Portals/20/Images/AR_2014.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.BannerPane {
+    min-height: 505px !important;
+    background-image: url('/Portals/20/Images/3-stripe-bg.jpg');
+    background-position: center;
+}
+
+.Full_Screen_PaneA {
+    min-height: 260px !important;
+    background-position: bottom;
+    
+    .group {
+        position: relative;
+        height: 165px;
+        
+        .heading {
+            width: 500px;
+            color: #FFFFFF;
+            font-size: 14px;
+            font-family:'Open Sans 7','Open Sans',sans-serif;
+            font-weight: 700;
+            position: absolute;
+            bottom: 25px;
+
+            h1 {
+                font-size: 36px;
+                color: #FFFFFF;
+                line-height: 40px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+.content_mid {
+    margin-top: 5px;
+}
+
+.image {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    width: 200px;
+    height: 200px;
+}
+
+#photoFrame {
+    width: 600px;
+    height: 460px;
+    position: relative;
+    margin: auto;
+    
+    .photo {
+        float: left;
+        width: 275px;
+        height: 275px;
+        
+        &.open {
+            height: 425px;
+        }
+    }
+    
+    .message {
+        width: 275px;
+        display: none;
+        color: #FFFFFF;
+        margin-top: 25px;
+        margin: auto;
+        position: absolute;
+        z-index: -1;
+        
+        h3 {
+            color: #FFFFFF;
+        }
+        
+        .fullStory {
+            color: #006666;
+            background-color: #FFFFFF;
+            width: 170px;
+            height: 30px;
+            display: table;
+            
+            .text {
+                display: table-cell;
+                width: 245px;
+                height: 30px;
+                border-right: 2px #006666 solid;
+                text-align: center;
+                vertical-align: middle;
+                position: relative;
+                left: 0;
+                padding: 0;
+                color: #006666;
+            }
+            
+            .arrow {
+                display: block;
+                width: 30px;
+                height: 30px;
+                background-image: url('/Portals/_default/Skins/IML_Branded-AR/images/button_bg.jpg');
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+        }
+    }
+        
+    
+    .top {
+        
+        .target {
+            margin: 50px;
+            width: 175px;
+            height: 175px;
+            position: absolute;
+            top: 0;
+
+            &:hover {
+                cursor: pointer;   
+            }
+        }
+    
+        .message {
+            bottom: 0;    
+        }
+        
+        &.left {
+            background-image: url('/Portals/20/Images/featured/katie.png');
+            background-repeat: no-repeat;
+            background-position: top;
+            position: absolute;
+            z-index: 2;
+            left: 50px;
+            top: 20px;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            
+            &.on {
+                left: -200px;
+                top: -20px;
+                -webkit-transition: all 0.5s ease;
+                -moz-transition: all 0.5s ease;
+                -ms-transition: all 0.5s ease;
+                -o-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+            }
+        }
+    
+        &.right {
+            background-image: url('/Portals/20/Images/featured/pamela.png');
+            background-repeat: no-repeat;
+            background-position: top;
+            position: absolute;
+            z-index: 1;
+            right: 55px;
+            top: 30px;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            
+            &.on {
+                right: -200px;
+                top: -20px;
+                -webkit-transition: all 0.5s ease;
+                -moz-transition: all 0.5s ease;
+                -ms-transition: all 0.5s ease;
+                -o-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+            }
+        }
+    }
+    
+    .bottom {
+        .target {
+            margin: 50px;
+            width: 175px;
+            height: 175px;
+            position: absolute;
+            bottom: 0;
+
+            &:hover {
+                cursor: pointer;   
+            }
+        }
+        
+        .message {
+            top: 0;    
+        }
+        
+        &.left {
+            background-image: url('/Portals/20/Images/featured/sue.png');
+            background-repeat: no-repeat;
+            background-position: bottom;
+            position: absolute;
+            z-index: 3;
+            left: 45px;            
+            top: 215px;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            
+            &.on {
+                height: 450px;
+                left: -200px;
+                top: 105px;
+                -webkit-transition: all 0.5s ease;
+                -moz-transition: all 0.5s ease;
+                -ms-transition: all 0.5s ease;
+                -o-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+            }
+        }
+
+        &.right {
+            background-image: url('/Portals/20/Images/featured/david.png');
+            background-repeat: no-repeat;
+            background-position: bottom;
+            position: absolute;
+            z-index: 2;
+            right: 55px;
+            top: 235px;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+            
+            &.on {
+                height: 450px;
+                right: -200px;
+                top: 105px;
+                -webkit-transition: all 0.5s ease;
+                -moz-transition: all 0.5s ease;
+                -ms-transition: all 0.5s ease;
+                -o-transition: all 0.5s ease;
+                transition: all 0.5s ease;
+            }
+        }
+    }
+}
+
+.presMessage {
+    margin-top: 75px;
+    
+    .presImg {
+        width: 200px;
+        margin-top: -75px;
+    }
+    
+    .presMsg {
+        text-align: center !important;
+    }
+}
+
+.thumbnail {
+    height: 210px;
+}
+
+//Annual Report Stats
+
+.frame {
+    width: 100%;
+    max-width: 260px;
+    height: 260px;
+    display: table;
+    margin: auto;
+    
+    .statNumber {
+        font-size: 37px;
+        font-family:'Open Sans 7','Open Sans',sans-serif;
+        font-weight: 700;
+    } 
+        
+    .copy {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
+.lifeClaims {
+    text-align: center;
+    color: #330066;
+    display: table-cell;
+    vertical-align: middle;
+    
+    .copy {
+        border-top: 1px solid #330066;
+        border-bottom: 1px solid #330066;
+    }
+}
+
+.wpClaims {
+    text-align: center;
+    color: #660000;
+    display: table-cell;
+    vertical-align: middle;
+    
+    .copy {
+        
+        &.top {
+            border-bottom: 1px solid #660000;
+        }
+    
+        &.bottom {
+            border-top: 1px solid #660000;
+        }
+    }
+}
+
+.newCI {
+    text-align: center;
+    color: #660000;
+    display: table-cell;
+    vertical-align: middle;
+    
+    .copy {
+        
+        &.top {
+            font-size: 22px;
+            text-align: left;
+            line-height: 30px;
+            font-family:'Open Sans 7','Open Sans',sans-serif;
+            font-weight: 700;
+            height: 68px;
+        }
+        
+        &.bottom {
+            border-top: 1px solid #660000;
+            border-bottom: 1px solid #660000;
+            text-align: center;
+        }
+        
+        .twoLines {
+            font-size: 64px;
+            font-family:'Open Sans 8','Open Sans',sans-serif;
+            font-weight: 800;
+            float: left;
+            margin-right: 10px;
+            line-height: 62px;
+        }
+    }
+}
+    
+.diClaims {
+    text-align: center;
+    color: #000066;
+    display: table-cell;
+    vertical-align: middle;
+    
+    .copy {
+        font-size: 14px;
+        border-top: 1px solid #000066;
+        border-bottom: 1px solid #000066;
+    }
+}
+
+.psCalls {
+    text-align: center;
+    color: #000066;
+    display: table-cell;
+    vertical-align: middle;
+    display: none;
+    
+    .copy {
+        
+        &.top {
+            border-bottom: 1px solid #000066;
+        }
+    
+        &.bottom {
+            border-top: 1px solid #000066;
+        }
+    }
+}
+
+.uwPledge {
+    text-align: center;
+    color: #006666;
+    display: table-cell;
+    vertical-align: middle;
+    
+    .copy {
+        
+        &.top {
+            border-bottom: 1px solid #006666;
+        }
+    
+        &.bottom {
+            border-top: 1px solid #006666;
+        }
+    }
+}
+
+.hallOfFame {
+    text-align: center;
+    color: #330066;
+    display: table-cell;
+    vertical-align: middle;
+    
+    .case {
+        height: 34px;
+        display: block;
+        clear: both;
+        overflow: hidden;
+
+        .trophy {
+            width: 21px;
+            height: 28px;
+            display: block;
+            float: left;
+            margin: 0 4px;
+            margin-top: -28px;
+            background-size: cover;
+            background-image: url('/Portals/20/Images/anims/trophy-ie.png');
+        }
+    }
+    
+    .copy {
+        font-size: 13px;
+        border-top: 1px solid #330066;
+        border-bottom: 1px solid #330066;
+        
+        .twoLines {
+            font-size: 75px;
+            font-family:'Open Sans 8','Open Sans',sans-serif;
+            font-weight: 800;
+            float: left;
+            margin-right: -2px;
+            line-height: 62px;
+        }
+    }
+}
+
+.photoContest {
+    text-align: center;
+    color: #006666;
+    display: table-cell;
+    vertical-align: middle;
+    display: none;
+    
+    .gallery {
+        width: auto;
+        height: 24px;
+        margin: 5px 5.28px;
+        overflow: hidden;
+        
+        &.bottom {
+            margin: 5px 19.67px;
+        }
+        
+        .photo {
+            display: block;
+            float: left;
+            margin: 0 3.4px;
+            margin-top: -33px;
+            width: 22px;
+            height: 24px;
+            background-image: url('/Portals/20/Images/anims/photo-ie.jpg');
+            background-size: cover;
+        }
+    }
+    
+    .copy {
+        
+        &.top {
+            font-family:'Open Sans 7','Open Sans',sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 34px;
+            text-align: left;
+            height: 70px;
+        }
+        
+        &.bottom {
+            border-top: 1px solid #006666;
+            border-bottom: 1px solid #006666;
+        }
+        
+        .twoLines {
+            font-size: 70px;
+            font-family:'Open Sans 8','Open Sans',sans-serif;
+            font-weight: 800;
+            float: left;
+            margin-right: 5px;
+            line-height: 62px;
+        }
+    }
+}
+
+// Financials Charts
+
+.fadeStat {
+    display: block !important;
+}
+
+#portfolioByAssets{
+    margin: auto;
+}
+
+#legend {
+    
+    .item {
+        width: 320px;
+        position: relative;
+        margin: 5px;
+        
+        .one { background-color: #006666;}
+        .two { background-color: #04807d;}
+        .three { background-color: #099b93;}
+        .four { background-color: #05b4a6;}
+        .five { background-color: #28beb1;}
+        .six { background-color: #4dc4b8;}
+        .seven { background-color: #8fd6d3;}
+        .eight { background-color: #c3e9ec;}
+        .nine { background-color: #dcf2f7;}
+        
+        .key {
+            width: 25px;
+            height: 25px;
+            display: block;
+            border: 1px solid #666666;
+            position: absolute;
+        }
+        
+        .amount {
+            display: inline-block;
+            width: 55px;  
+        }
+        
+        .amount, .label {
+            font-size: 17px;
+            font-family:'Open Sans 7','Open Sans',sans-serif;
+            font-weight: 700;
+            line-height: 25px;
+            color: #666666;
+            position: relative;
+            left: 40px;  
+        }
+    }
+}
+
+.years {
+    width: 200px;
+    clear: left;
+    margin: auto;
+    
+    .year {
+        width: 33.3333333%;
+        float: left;
+        text-align: center;
+    }
+}
+
+table {
+    
+    &.assets, &.liabilities {
+        display: none;
+        margin-top: 24px;
+        
+        .title {
+            font-size: 20px;
+            font-family:'Open Sans 7','Open Sans',sans-serif;
+            font-weight: 700;
+            color: #006666;
+            border-bottom: 1px solid #006666;
+        }
+        
+        .col-2, .col-3 {
+            text-align: right;
+            width: 256px;
+        }
+    }
+}

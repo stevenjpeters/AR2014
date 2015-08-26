@@ -1,0 +1,473 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800);
+@font-face {
+  font-family: 'Open Sans 4';
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot"); }
+@font-face {
+  font-family: 'Open Sans 7';
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://themes.googleusercontent.com/static/fonts/opensans/v5/k3k702ZOKiLJc3WVjuplzHZ2MAKAc2x4R1uOSeegc5U.eot"); }
+@font-face {
+  font-family: 'Open Sans 8';
+  font-style: normal;
+  font-weight: 800;
+  src: url("https://themes.googleusercontent.com/static/fonts/opensans/v5/EInbV5DfGHOiMmvb1Xr-hnZ2MAKAc2x4R1uOSeegc5U.eot"); }
+html, body {
+  font-family: 'Open Sans 4';
+  font-style: normal;
+  font-weight: 400; }
+
+.phoneHeadTop {
+  border-bottom: 0; }
+
+.phoneHeadBottom {
+  display: none; }
+
+.ie-only {
+  display: block; }
+
+.non-ie {
+  display: none; }
+
+#AR_2014 {
+  width: 750px;
+  height: 122px;
+  float: left;
+  text-align: center;
+  background-image: url("http://web3.illinoismutual.com/Portals/20/Images/AR_2014.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.BannerPane {
+  min-height: 505px !important;
+  background-image: url("/Portals/20/Images/3-stripe-bg.jpg");
+  background-position: center; }
+
+.Full_Screen_PaneA {
+  min-height: 260px !important;
+  background-position: bottom; }
+  .Full_Screen_PaneA .group {
+    position: relative;
+    height: 165px; }
+    .Full_Screen_PaneA .group .heading {
+      width: 500px;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-family: 'Open Sans 7','Open Sans',sans-serif;
+      font-weight: 700;
+      position: absolute;
+      bottom: 25px; }
+      .Full_Screen_PaneA .group .heading h1 {
+        font-size: 36px;
+        color: #FFFFFF;
+        line-height: 40px;
+        margin-bottom: 0px; }
+
+.content_mid {
+  margin-top: 5px; }
+
+.image {
+  position: absolute;
+  right: 0;
+  top: -20px;
+  width: 200px;
+  height: 200px; }
+
+#photoFrame {
+  width: 600px;
+  height: 460px;
+  position: relative;
+  margin: auto; }
+  #photoFrame .photo {
+    float: left;
+    width: 275px;
+    height: 275px; }
+    #photoFrame .photo.open {
+      height: 425px; }
+  #photoFrame .message {
+    width: 275px;
+    display: none;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin: auto;
+    position: absolute;
+    z-index: -1; }
+    #photoFrame .message h3 {
+      color: #FFFFFF; }
+    #photoFrame .message .fullStory {
+      color: #006666;
+      background-color: #FFFFFF;
+      width: 170px;
+      height: 30px;
+      display: table; }
+      #photoFrame .message .fullStory .text {
+        display: table-cell;
+        width: 245px;
+        height: 30px;
+        border-right: 2px #006666 solid;
+        text-align: center;
+        vertical-align: middle;
+        position: relative;
+        left: 0;
+        padding: 0;
+        color: #006666; }
+      #photoFrame .message .fullStory .arrow {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-image: url("/Portals/_default/Skins/IML_Branded-AR/images/button_bg.jpg");
+        background-repeat: no-repeat;
+        background-position: right; }
+  #photoFrame .top .target {
+    margin: 50px;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 0; }
+    #photoFrame .top .target:hover {
+      cursor: pointer; }
+  #photoFrame .top .message {
+    bottom: 0; }
+  #photoFrame .top.left {
+    background-image: url("/Portals/20/Images/featured/katie.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    z-index: 2;
+    left: 50px;
+    top: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    #photoFrame .top.left.on {
+      left: -200px;
+      top: -20px;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+  #photoFrame .top.right {
+    background-image: url("/Portals/20/Images/featured/pamela.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    position: absolute;
+    z-index: 1;
+    right: 55px;
+    top: 30px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    #photoFrame .top.right.on {
+      right: -200px;
+      top: -20px;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+  #photoFrame .bottom .target {
+    margin: 50px;
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    bottom: 0; }
+    #photoFrame .bottom .target:hover {
+      cursor: pointer; }
+  #photoFrame .bottom .message {
+    top: 0; }
+  #photoFrame .bottom.left {
+    background-image: url("/Portals/20/Images/featured/sue.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    z-index: 3;
+    left: 45px;
+    top: 215px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    #photoFrame .bottom.left.on {
+      height: 450px;
+      left: -200px;
+      top: 105px;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+  #photoFrame .bottom.right {
+    background-image: url("/Portals/20/Images/featured/david.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    z-index: 2;
+    right: 55px;
+    top: 235px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+    #photoFrame .bottom.right.on {
+      height: 450px;
+      right: -200px;
+      top: 105px;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+
+.presMessage {
+  margin-top: 75px; }
+  .presMessage .presImg {
+    width: 200px;
+    margin-top: -75px; }
+  .presMessage .presMsg {
+    text-align: center !important; }
+
+.thumbnail {
+  height: 210px; }
+
+.frame {
+  width: 100%;
+  max-width: 260px;
+  height: 260px;
+  display: table;
+  margin: auto; }
+  .frame .statNumber {
+    font-size: 37px;
+    font-family: 'Open Sans 7','Open Sans',sans-serif;
+    font-weight: 700; }
+  .frame .copy {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    height: 0;
+    overflow: hidden; }
+
+.lifeClaims {
+  text-align: center;
+  color: #330066;
+  display: table-cell;
+  vertical-align: middle; }
+  .lifeClaims .copy {
+    border-top: 1px solid #330066;
+    border-bottom: 1px solid #330066; }
+
+.wpClaims {
+  text-align: center;
+  color: #660000;
+  display: table-cell;
+  vertical-align: middle; }
+  .wpClaims .copy.top {
+    border-bottom: 1px solid #660000; }
+  .wpClaims .copy.bottom {
+    border-top: 1px solid #660000; }
+
+.newCI {
+  text-align: center;
+  color: #660000;
+  display: table-cell;
+  vertical-align: middle; }
+  .newCI .copy.top {
+    font-size: 22px;
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Open Sans 7','Open Sans',sans-serif;
+    font-weight: 700;
+    height: 68px; }
+  .newCI .copy.bottom {
+    border-top: 1px solid #660000;
+    border-bottom: 1px solid #660000;
+    text-align: center; }
+  .newCI .copy .twoLines {
+    font-size: 64px;
+    font-family: 'Open Sans 8','Open Sans',sans-serif;
+    font-weight: 800;
+    float: left;
+    margin-right: 10px;
+    line-height: 62px; }
+
+.diClaims {
+  text-align: center;
+  color: #000066;
+  display: table-cell;
+  vertical-align: middle; }
+  .diClaims .copy {
+    font-size: 14px;
+    border-top: 1px solid #000066;
+    border-bottom: 1px solid #000066; }
+
+.psCalls {
+  text-align: center;
+  color: #000066;
+  display: table-cell;
+  vertical-align: middle;
+  display: none; }
+  .psCalls .copy.top {
+    border-bottom: 1px solid #000066; }
+  .psCalls .copy.bottom {
+    border-top: 1px solid #000066; }
+
+.uwPledge {
+  text-align: center;
+  color: #006666;
+  display: table-cell;
+  vertical-align: middle; }
+  .uwPledge .copy.top {
+    border-bottom: 1px solid #006666; }
+  .uwPledge .copy.bottom {
+    border-top: 1px solid #006666; }
+
+.hallOfFame {
+  text-align: center;
+  color: #330066;
+  display: table-cell;
+  vertical-align: middle; }
+  .hallOfFame .case {
+    height: 34px;
+    display: block;
+    clear: both;
+    overflow: hidden; }
+    .hallOfFame .case .trophy {
+      width: 21px;
+      height: 28px;
+      display: block;
+      float: left;
+      margin: 0 4px;
+      margin-top: -28px;
+      background-size: cover;
+      background-image: url("/Portals/20/Images/anims/trophy-ie.png"); }
+  .hallOfFame .copy {
+    font-size: 13px;
+    border-top: 1px solid #330066;
+    border-bottom: 1px solid #330066; }
+    .hallOfFame .copy .twoLines {
+      font-size: 75px;
+      font-family: 'Open Sans 8','Open Sans',sans-serif;
+      font-weight: 800;
+      float: left;
+      margin-right: -2px;
+      line-height: 62px; }
+
+.photoContest {
+  text-align: center;
+  color: #006666;
+  display: table-cell;
+  vertical-align: middle;
+  display: none; }
+  .photoContest .gallery {
+    width: auto;
+    height: 24px;
+    margin: 5px 5.28px;
+    overflow: hidden; }
+    .photoContest .gallery.bottom {
+      margin: 5px 19.67px; }
+    .photoContest .gallery .photo {
+      display: block;
+      float: left;
+      margin: 0 3.4px;
+      margin-top: -33px;
+      width: 22px;
+      height: 24px;
+      background-image: url("/Portals/20/Images/anims/photo-ie.jpg");
+      background-size: cover; }
+  .photoContest .copy.top {
+    font-family: 'Open Sans 7','Open Sans',sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: left;
+    height: 70px; }
+  .photoContest .copy.bottom {
+    border-top: 1px solid #006666;
+    border-bottom: 1px solid #006666; }
+  .photoContest .copy .twoLines {
+    font-size: 70px;
+    font-family: 'Open Sans 8','Open Sans',sans-serif;
+    font-weight: 800;
+    float: left;
+    margin-right: 5px;
+    line-height: 62px; }
+
+.fadeStat {
+  display: block !important; }
+
+#portfolioByAssets {
+  margin: auto; }
+
+#legend .item {
+  width: 320px;
+  position: relative;
+  margin: 5px; }
+  #legend .item .one {
+    background-color: #006666; }
+  #legend .item .two {
+    background-color: #04807d; }
+  #legend .item .three {
+    background-color: #099b93; }
+  #legend .item .four {
+    background-color: #05b4a6; }
+  #legend .item .five {
+    background-color: #28beb1; }
+  #legend .item .six {
+    background-color: #4dc4b8; }
+  #legend .item .seven {
+    background-color: #8fd6d3; }
+  #legend .item .eight {
+    background-color: #c3e9ec; }
+  #legend .item .nine {
+    background-color: #dcf2f7; }
+  #legend .item .key {
+    width: 25px;
+    height: 25px;
+    display: block;
+    border: 1px solid #666666;
+    position: absolute; }
+  #legend .item .amount {
+    display: inline-block;
+    width: 55px; }
+  #legend .item .amount, #legend .item .label {
+    font-size: 17px;
+    font-family: 'Open Sans 7','Open Sans',sans-serif;
+    font-weight: 700;
+    line-height: 25px;
+    color: #666666;
+    position: relative;
+    left: 40px; }
+
+.years {
+  width: 200px;
+  clear: left;
+  margin: auto; }
+  .years .year {
+    width: 33.3333333%;
+    float: left;
+    text-align: center; }
+
+table.assets, table.liabilities {
+  display: none;
+  margin-top: 24px; }
+  table.assets .title, table.liabilities .title {
+    font-size: 20px;
+    font-family: 'Open Sans 7','Open Sans',sans-serif;
+    font-weight: 700;
+    color: #006666;
+    border-bottom: 1px solid #006666; }
+  table.assets .col-2, table.assets .col-3, table.liabilities .col-2, table.liabilities .col-3 {
+    text-align: right;
+    width: 256px; }
+
+/*# sourceMappingURL=AR2014-ie.css.map */
